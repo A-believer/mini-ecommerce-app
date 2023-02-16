@@ -1,11 +1,16 @@
 import React from "react"
-import {Auth, Layout} from './components'
+import Auth from './components/Auth'
+import Layout from './components/Layout'
+import './index.css'
 function App() {
  
 
   return (
-    <div className="App">
-      <Auth />
+    <div className="flex justify-center">
+      <div className="flex items-center justify-center h-screen">
+        <Auth />
+      </div>
+      
       {/* <Layout/> */}
     </div>
   )
