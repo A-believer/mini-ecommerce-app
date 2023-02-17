@@ -44,7 +44,7 @@ const Products = () => {
       <ul className="flex justify-between items-center flex-wrap justify-items-center ">
         {
           dummyProducts.map((product, index) => (
-            <li key={index}>
+            <li key={index} className="mx-auto">
               <Product
                 id={product.id}
                 name={product.name}
